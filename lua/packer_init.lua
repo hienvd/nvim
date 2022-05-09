@@ -134,6 +134,10 @@ return packer.startup(function(use)
     'RRethy/nvim-treesitter-endwise'
   }
 
+  use {
+    'vim-test/vim-test'
+  }
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if packer_bootstrap then
