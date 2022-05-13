@@ -10,6 +10,8 @@ wk.register({
   ["<leader>"] = {
     c = { "<cmd>nohl<CR>", "Clear Highlight" },
     s = { "<cmd>w<CR>", "Save"},
+    ["q"] = { "<cmd>q<CR>", "Quit"},
+    ["vs"] = { "<cmd>vs<CR>", "Vertical Split"},
 
     -- f for Files (Telescope)
     f = {
