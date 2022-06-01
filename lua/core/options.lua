@@ -22,6 +22,7 @@ set.timeoutlen = 500
 -- Neovim UI
 -----------------------------------------------------------
 set.number = true           -- Show line number
+set.relativenumber = true   -- Set relative line number
 set.showmatch = true        -- Highlight matching parenthesis
 set.foldmethod = 'marker'   -- Enable folding (default 'foldmarker')
 set.colorcolumn = '80'      -- Line lenght marker at 80 columns
