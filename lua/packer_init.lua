@@ -130,13 +130,11 @@ return packer.startup(function(use)
     end
   }
 
-  use {
-    'RRethy/nvim-treesitter-endwise'
-  }
+  use { 'RRethy/nvim-treesitter-endwise' }
 
-  use {
-    'vim-test/vim-test'
-  }
+  use { 'vim-test/vim-test' }
+
+  use { 'camspiers/snap' }
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
